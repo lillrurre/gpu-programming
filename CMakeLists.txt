@@ -3,7 +3,7 @@ project(gpu_programming CUDA)
 
 set(CMAKE_CUDA_STANDARD 17)
 
-add_executable(gpu_programming main.cu)
+add_executable(gpu_programming galaxy.cu)
 
 set_target_properties(gpu_programming PROPERTIES
         CUDA_SEPARABLE_COMPILATION ON)
